@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+.cadastro-box {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    width: 500px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.cadastro-box h1 {
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.445);
+}
+
+.cadastro-box .botoes input[type=submit] {
+    background-color: #fa7f72;
+    color: #fff;
+    font-size: 1.1em;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cadastro-box p {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.cadastro-box p a {
+    color: #fa7f72;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.cadastro-box p a:hover {
+    text-decoration: underline;
+}
+
+.botoes {
+    color: #fff;   
+    font-size: 1.1em;                    
+}

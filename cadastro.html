@@ -4,16 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar Conta</title>
+    <script src="https://kit.fontawesome.com/4ffedb429c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/cadastro.css">
+    <link rel="stylesheet" href="estilos/index.css">
 </head>
 <body>
     <div class="cadastro-box">
         <form action="#">
             <h1>Criar Conta</h1>
             <div class="input-box">
-                <label for="inome"></label>
-                <input type="text" name="nome" id="inome">
+                <label for="inome"><i class="fa-solid fa-user"></i></label>
+                <input type="text" name="nome" id="inome" required placeholder="nome">
+            </div>
+            <div class="input-box">
+                <label for="inome"><i class="fa-solid fa-user"></i></label>
+                <input type="text" name="sobrenome" id="isobrenome" required placeholder="sobrenome">
+            </div>
+            <div class="input-box">
+                <label for="inome"><i class="fa-solid fa-envelope"></i></label>
+                <input type="email" name="email" id="iemail" required placeholder="e-mail">
+            </div>
+            <div class="input-box">
+                <label for="inome"><i class="fa-solid fa-lock"></i></label>
+                <input type="password" name="senha" id="isenha" required placeholder="senha">
+            </div>
+            <div class="input-box">
+                <label for="inome"><i class="fa-solid fa-lock"></i></label>
+                <input type="password" name="rsenha" id="irsenha" required placeholder="repetir senha">
             </div>
         </form>
+        <div class="botoes">
+            <label for="itermos"></label>
+            <input type="checkbox" name="termos" id="itermos" required>
+            Eu li e concordo com estes termos e condições.</label> <br>
+            <input type="submit" value="Criar Conta">
+        </div>
+        <p>Já possui uma conta? <a href="index.html">Entrar</a></p>
     </div>
 </body>
 </html>
